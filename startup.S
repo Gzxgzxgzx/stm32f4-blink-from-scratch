@@ -15,7 +15,7 @@
 
 /*
  * The vector table contains the reset value of the stack pointer and the start
- * for all exception handlers
+ * address for all exception handlers
  */
 vector_table:
 	.word    _estack            /* initial SP value  */       
