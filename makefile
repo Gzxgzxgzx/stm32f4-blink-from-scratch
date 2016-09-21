@@ -13,8 +13,6 @@ AS=arm-none-eabi-as
 CP=arm-none-eabi-objcopy
 OD=arm-none-eabi-objdump
 
-SRC = main.c
-
 CFLAGS  = -Wall -Wextra -std=c11
 CFLAGS += -nostdlib -mcpu=cortex-m4 -mthumb -mthumb-interwork
 CFLAGS += -I./include
