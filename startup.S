@@ -48,7 +48,7 @@ reset_handler:
 	bl main
 	bx lr
 
-    .size   reset_handler, . - reset_handler
+	.size   reset_handler, . - reset_handler
 
 /*
  * Exception handlers
